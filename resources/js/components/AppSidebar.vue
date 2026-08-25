@@ -17,6 +17,7 @@ import {
 import { dashboard } from '@/routes';
 import type { NavItem } from '@/types';
 import { index as menuCategoriesIndex } from '@/routes/menu-categories';
+import { index as menuItemsIndex } from '@/routes/menu-items';
 
 const mainNavItems: NavItem[] = [
     {
@@ -33,6 +34,11 @@ const mainNavItems: NavItem[] = [
         title: 'Menu Categories',
         href: menuCategoriesIndex(),
         icon: UtensilsCrossed,
+    },
+    {
+        title: 'Menu Items',
+        href: menuItemsIndex(),
+        icon: Utensils,
     },
 ];
 
